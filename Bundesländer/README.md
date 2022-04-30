@@ -1,0 +1,1 @@
+This deck contains Anki cards about the German Bundesländer.
