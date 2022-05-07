@@ -1,0 +1,848 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "8a993277-c8cb-11ec-8c39-34f39a8c31a0",
+    "deck_config_uuid": "f434a3f0-c8c4-11ec-8a5c-34f39a8c31a0",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f434a3f0-c8c4-11ec-8a5c-34f39a8c31a0",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 5,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 5
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 50
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "<center>Die Namen, Hauptstädte und Lagen der 50 US Staaten.</center>",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "alabama-2fff07b69c957663fe845270b0b6f05714736fba.png",
+        "alaska-68e2ed1f37cd8c009b9218b9b7f671d00ccdeeac.png",
+        "arizona-2eeaa797d77a5b61ce78c0630a6d43d9129f55fa.png",
+        "arkansas-2d327ef6b3ed1b84dad8b9adc5e5e7e236e45fbe.png",
+        "california-7fb9826837bc08ca910e5411a0fbfebd77468d97.png",
+        "colorado-d42e8e46df3610285e07bbef1380b108224117ff.png",
+        "conneticut.png",
+        "delaware-6e9553c456914aec482f5242c62440e7564c8f9d.png",
+        "florida-9d24a91c556a3170c9affb5d2ee9c69559a15e3d.png",
+        "georgia-3456a7c1d585aad7b7f10d8a47bb07e8af8ee1d8.png",
+        "hawaii-2afb1ba59c9ef2a86856b0b4ce35bdac7ceba156.png",
+        "idaho-da388b7fdf779f07455587b2db2368857a820e1b.png",
+        "illinois-0ebad82f1ce9c7507a5a2aaf93261a2cbf42db06.png",
+        "indiana-31291880182dd4a453d8ef831cca60d4abef0305.png",
+        "iowa-3fdf739251f00594b39fb8664a28794b5a445d6e.png",
+        "kansas-04903c7acd78feb2dec348d275f1069ca5123496.png",
+        "kentucky-2741fb22867a1073a402cd9e0b8974be52fb50ed.png",
+        "louisiana-1e4a70a357e9b79f73ae85fdb37ce5f40c2cdf0f.png",
+        "maine-dddeae2f3eca0cd1de7ed898d08b94cdc8bc8cc8.png",
+        "maryland-e5f69752873f6776768d1f0079b23a5b0ecb5d0d.png",
+        "massachusetts-007102dd72c4187dbd44eb6e17681944a84246e1.png",
+        "michigan-b031d39f1361e44c771eb26b9fcaecd078dccbaf.png",
+        "minnesota-684a3e531541d8e9851cb4df56bd2321a2040a91.png",
+        "mississippi-5d800a37539cf75c38c61ac72ff544fdd0652ba1.png",
+        "missouri-385c81dba6c52b56d3d6e5f6f1112d24833820eb.png",
+        "montana-8793687f850882399f188fceca7867240460788f.png",
+        "nebraska-cc4b08e9fb8b366d6a05005660783ba679ac783a.png",
+        "nevada-3911ca8176596cced7f7a297b6ceffdaa3f9bc32.png",
+        "new_hampshire.png",
+        "new_jersey.png",
+        "new_mexico.png",
+        "new_york.png",
+        "north_carolina.png",
+        "north_dakota.png",
+        "ohio-1324aef1e45ae7f4ba8c29ee22bac3c748bead12.png",
+        "oklahoma-f43b845073d06c91b44cddc0048a53acaaa0c645.png",
+        "oregon-2de4a93ac2f9ffdbf6562bb51ef1e448aaf5ca67.png",
+        "pennsylvania-886c69414b1a55af5efea72a42345405d5cace28.png",
+        "rhode_island.png",
+        "south_carolina.png",
+        "south_dakota.png",
+        "tennessee-8f018f2bc396cbeec76d56763326ecfdb594d936.png",
+        "texas-5b93a5325922d7085ba0078b94cf077115522759.png",
+        "usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png",
+        "utah-34e8d8201ab0d0fc6bf9a706df3092a43745599b.png",
+        "vermont-5d58f0c91748dbea83f1677b6e7360d7e567213a.png",
+        "virginia-9cd7e8b4205073cd8a06bb8b0100afe944a3e35b.png",
+        "washington-820fa92aa738384824d03d86abbd819ca47f0664.png",
+        "west_virginia.png",
+        "wisconsin-0250fd533277af02debfab34229a27c86f2e8d69.png",
+        "wyoming-ec575e06b3729a9a2f79e7cc92b405b9f1460c71.png"
+    ],
+    "mid": 1622708176423,
+    "name": "Geographie::US Staaten",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n max-width: 55em;\n margin-left: auto;\n margin-right: auto;\n}\n\n.map{\n   margin-left: auto;\n   margin-right: auto;\n   max-width: 800px;\n}\n\n.card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\nhr {\n  margin: 1.5em 0;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "State",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Capital",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Map",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Map_blank",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "US Staaten",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                [
+                    2,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    3,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"answer\">\n\t<div class=\"value\">{{State}}</div>\n</div>\n\n<hr id=\"answer\">\n\n<div class=\"map\">{{Map}}</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Map > State",
+                    "ord": 0,
+                    "qfmt": "<div id=\"answer\">\n\t<div class=\"value\">?</div>\n</div>\n\n<hr id=\"answer\">\n\n<div class=\"map\">{{Map}}</div>"
+                },
+                {
+                    "afmt": "<div id=\"answer\">\n\t<div class=\"value\">{{State}}</div>\n</div>\n\n<hr id=\"answer\">\n\n<div class=\"map\">{{Map}}</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "State > Map",
+                    "ord": 1,
+                    "qfmt": "<div id=\"answer\">\n\t<div class=\"value\">{{State}}</div>\n</div>\n\n<hr id=\"answer\">\n\n<div class=\"map\">{{Map_blank}}</div>"
+                },
+                {
+                    "afmt": "<div class=\"value value--top\">{{State}}</div>\n\n<hr>\n\n<div class=\"type\">Capital</div>\n<div class=\"value\">{{Capital}}</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "State > Capital",
+                    "ord": 2,
+                    "qfmt": "<div class=\"value value--top\">{{State}}</div>\n\n<hr>\n\n<div class=\"type\">Capital</div>\n<div class=\"value\">?</div>\n"
+                },
+                {
+                    "afmt": "<div class=\"value value--top\">{{Capital}}</div>\n\n<hr>\n\n<div class=\"type\">State</div>\n<div class=\"value\">{{State}}</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Capital > State",
+                    "ord": 3,
+                    "qfmt": "<div class=\"value value--top\">{{Capital}}</div>\n\n<hr>\n\n<div class=\"type\">State</div>\n<div class=\"value\">?</div>\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alabama",
+                "Montgomery",
+                "<img src=\"alabama-2fff07b69c957663fe845270b0b6f05714736fba.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "H;_mZsJRoG",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alaska",
+                "Juneau",
+                "<img src=\"alaska-68e2ed1f37cd8c009b9218b9b7f671d00ccdeeac.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "p/b63~7yWL",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Arizona",
+                "Phoenix",
+                "<img src=\"arizona-2eeaa797d77a5b61ce78c0630a6d43d9129f55fa.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "xfGe?dFq#!",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Arkansas",
+                "Little Rock",
+                "<img src=\"arkansas-2d327ef6b3ed1b84dad8b9adc5e5e7e236e45fbe.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "y5d2Rib)|q",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "California",
+                "Sacramento",
+                "<img src=\"california-7fb9826837bc08ca910e5411a0fbfebd77468d97.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "oK290hNNs}",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Colorado",
+                "Denver",
+                "<img src=\"colorado-d42e8e46df3610285e07bbef1380b108224117ff.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "it,=9^>gz^",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Connecticut",
+                "Hartford",
+                "<img src=\"conneticut.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "rLWei%_uN9",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Delaware",
+                "Dover",
+                "<img src=\"delaware-6e9553c456914aec482f5242c62440e7564c8f9d.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "GfTqITr(Z5",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Florida",
+                "Tallahassee",
+                "<img src=\"florida-9d24a91c556a3170c9affb5d2ee9c69559a15e3d.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "BEA?j<u;ow",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Georgia",
+                "Atlanta",
+                "<img src=\"georgia-3456a7c1d585aad7b7f10d8a47bb07e8af8ee1d8.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "(=x_uZ:Wm",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hawaii",
+                "Honolulu",
+                "<img src=\"hawaii-2afb1ba59c9ef2a86856b0b4ce35bdac7ceba156.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "N<VodJ~RW4",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Idaho",
+                "Boise",
+                "<img src=\"idaho-da388b7fdf779f07455587b2db2368857a820e1b.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "G6tJ`&^D%t",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Illinois",
+                "Springfield",
+                "<img src=\"illinois-0ebad82f1ce9c7507a5a2aaf93261a2cbf42db06.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "scUS/?;OHA",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Indiana",
+                "Indianapolis",
+                "<img src=\"indiana-31291880182dd4a453d8ef831cca60d4abef0305.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "m&`l&n_|`@",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Iowa",
+                "Des Moines",
+                "<img src=\"iowa-3fdf739251f00594b39fb8664a28794b5a445d6e.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "L9Nlsx<3v$",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kansas",
+                "Topeka",
+                "<img src=\"kansas-04903c7acd78feb2dec348d275f1069ca5123496.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "xch8<p}4bE",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kentucky",
+                "Frankfort",
+                "<img src=\"kentucky-2741fb22867a1073a402cd9e0b8974be52fb50ed.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "k{rU=,#Nk+",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Louisiana",
+                "Baton Rouge",
+                "<img src=\"louisiana-1e4a70a357e9b79f73ae85fdb37ce5f40c2cdf0f.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "M~XbG_==[G",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maine",
+                "Augusta",
+                "<img src=\"maine-dddeae2f3eca0cd1de7ed898d08b94cdc8bc8cc8.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "d4@:Y`:zh3",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maryland",
+                "Annapolis",
+                "<img src=\"maryland-e5f69752873f6776768d1f0079b23a5b0ecb5d0d.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "Fvg&]p?w)A",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Massachusetts",
+                "Boston",
+                "<img src=\"massachusetts-007102dd72c4187dbd44eb6e17681944a84246e1.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "x;_;&h,,qU",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Michigan",
+                "Lansing",
+                "<img src=\"michigan-b031d39f1361e44c771eb26b9fcaecd078dccbaf.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "CP|GSQtcpI",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Minnesota",
+                "Saint Paul",
+                "<img src=\"minnesota-684a3e531541d8e9851cb4df56bd2321a2040a91.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "hjT4Hw}#x-",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mississippi",
+                "Jackson",
+                "<img src=\"mississippi-5d800a37539cf75c38c61ac72ff544fdd0652ba1.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "M$G)Eacjn_",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Missouri",
+                "Jefferson City",
+                "<img src=\"missouri-385c81dba6c52b56d3d6e5f6f1112d24833820eb.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "jbX}ULsawy",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Montana",
+                "Helena",
+                "<img src=\"montana-8793687f850882399f188fceca7867240460788f.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "uJ[zJhq%4Z",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nebraska",
+                "Lincoln",
+                "<img src=\"nebraska-cc4b08e9fb8b366d6a05005660783ba679ac783a.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "hE-]i;kLk-",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nevada",
+                "Carson City",
+                "<img src=\"nevada-3911ca8176596cced7f7a297b6ceffdaa3f9bc32.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "xkiHfq57zS",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New Hampshire",
+                "Concord",
+                "<img src=\"new_hampshire.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "Qs4PpKV7S2",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New Jersey",
+                "Trenton",
+                "<img src=\"new_jersey.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "JYlx$ER8&t",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New Mexico",
+                "Santa Fe",
+                "<img src=\"new_mexico.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "i:B!HE;@qc",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New York",
+                "Albany",
+                "<img src=\"new_york.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "bMY7|w{U=z",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "North Carolina",
+                "Raleigh",
+                "<img src=\"north_carolina.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "Ou&@J(Z5sm",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "North Dakota",
+                "Bismarck",
+                "<img src=\"north_dakota.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "bqkqR{i6JU",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ohio",
+                "Columbus",
+                "<img src=\"ohio-1324aef1e45ae7f4ba8c29ee22bac3c748bead12.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "CG^F-1lB;3",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oklahoma",
+                "Oklahoma City",
+                "<img src=\"oklahoma-f43b845073d06c91b44cddc0048a53acaaa0c645.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "cC._p@e:Mp",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oregon",
+                "Salem",
+                "<img src=\"oregon-2de4a93ac2f9ffdbf6562bb51ef1e448aaf5ca67.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "3DGVQl$6?",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pennsylvania",
+                "Harrisburg",
+                "<img src=\"pennsylvania-886c69414b1a55af5efea72a42345405d5cace28.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "O:UIC7s]n!",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rhode Island",
+                "Providence",
+                "<img src=\"rhode_island.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "i4sb~KC?aq",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "South Carolina",
+                "Columbia",
+                "<img src=\"south_carolina.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "kzm2O@P)xi",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "South Dakota",
+                "Pierre",
+                "<img src=\"south_dakota.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "m6oUwA]M79",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tennessee",
+                "Nashville",
+                "<img src=\"tennessee-8f018f2bc396cbeec76d56763326ecfdb594d936.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "hRPp!E^Y&b",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Texas",
+                "Austin",
+                "<img src=\"texas-5b93a5325922d7085ba0078b94cf077115522759.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "k7S-V|RZQ@",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Utah",
+                "Salt Lake City",
+                "<img src=\"utah-34e8d8201ab0d0fc6bf9a706df3092a43745599b.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "mtP!ZMw6$u",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vermont",
+                "Montpelier",
+                "<img src=\"vermont-5d58f0c91748dbea83f1677b6e7360d7e567213a.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "dq)6{d_B28",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Virginia",
+                "Richmond",
+                "<img src=\"virginia-9cd7e8b4205073cd8a06bb8b0100afe944a3e35b.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "byn^,|A3HK",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Washington",
+                "Olympia",
+                "<img src=\"washington-820fa92aa738384824d03d86abbd819ca47f0664.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "Jp,R9<uZO(",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "West Virginia",
+                "Charleston",
+                "<img src=\"west_virginia.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "MXzlWG?.Kx",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wisconsin",
+                "Madison",
+                "<img src=\"wisconsin-0250fd533277af02debfab34229a27c86f2e8d69.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "pFT{W4cfl2",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wyoming",
+                "Cheyenne",
+                "<img src=\"wyoming-ec575e06b3729a9a2f79e7cc92b405b9f1460c71.png\">",
+                "<img src=\"usa-dc8c6573082583e0c42ac0af83d0c182021d4ba8.png\">"
+            ],
+            "guid": "NS(O_q;<IB",
+            "note_model_uuid": "8a995974-c8cb-11ec-b372-34f39a8c31a0",
+            "tags": []
+        }
+    ]
+}
