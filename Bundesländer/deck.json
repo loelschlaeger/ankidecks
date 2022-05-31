@@ -35,7 +35,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 5
+                "perDay": 0
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -48,7 +48,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 50
+                "perDay": 100
             },
             "reviewOrder": 0,
             "timer": 0
@@ -56,7 +56,7 @@
     ],
     "desc": "<center> Die 16 deutschen Bundesländer mit Lage, Hauptstadt, Flagge, Wappen und Ministerpräsident. </center>",
     "dyn": 0,
-    "extendNew": 0,
+    "extendNew": 9,
     "extendRev": 0,
     "media_files": [
         "Baden-Württemberg_Flagge.png",
@@ -87,9 +87,9 @@
         "Hamburg_Karte.png",
         "Hamburg_Tschentscher.png",
         "Hamburg_Wappen-9ebfda96d0e4edc6fa917ff1fc8d6244d35f70c2.png",
-        "Hessen_Bouffier.png",
         "Hessen_Flagge.png",
         "Hessen_Karte.png",
+        "Hessen_Rhein.jpg",
         "Hessen_Wappen-e8704b1bfc9f98b0d7a9141389122e0c39d78b4f.png",
         "Hessen_Wiesbaden.png",
         "Mecklenburg-Vorpommern_Flagge.png",
@@ -146,6 +146,7 @@
             "css": "hr {\n  margin: 1.5em 0;\n}\n\nimg {\n  height: 300px;\n  object-fit: scale-down;\n}\n\n.card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}",
             "flds": [
                 {
+                    "description": "",
                     "font": "Arial",
                     "media": [],
                     "name": "Bundesland",
@@ -155,6 +156,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "media": [],
                     "name": "Hauptstadt",
@@ -164,6 +166,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "Hauptstadt_Lage",
                     "ord": 2,
@@ -172,6 +175,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "media": [],
                     "name": "Karte",
@@ -181,6 +185,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "Karte_leer",
                     "ord": 4,
@@ -189,6 +194,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "media": [],
                     "name": "Wappen",
@@ -198,6 +204,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "Wappen_Info",
                     "ord": 6,
@@ -206,6 +213,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "media": [],
                     "name": "Flagge",
@@ -215,6 +223,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "Flagge_Info",
                     "ord": 8,
@@ -223,6 +232,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "MP",
                     "ord": 9,
@@ -231,6 +241,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "MP_Foto",
                     "ord": 10,
@@ -239,6 +250,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Arial",
                     "name": "MP_Partei",
                     "ord": 11,
@@ -560,13 +572,15 @@
                 "Ähnlich dem&nbsp;thüringischen Wappen (thüringischer&nbsp;Löwe ist gekrönt und von Sternen umgeben, das Wappen hat keine Krone).",
                 "<img src=\"Hessen_Flagge.png\">",
                 "Ähnlich der thüringischen Flagge (bei der thüringischen Flagge ist weiß oben und rot unten).",
-                "Volker Bouffier",
-                "<img src=\"Hessen_Bouffier.png\">",
+                "Boris Rhein",
+                "<img src=\"Hessen_Rhein.jpg\">",
                 "CDU"
             ],
             "guid": "sL#f.Ls6y2",
             "note_model_uuid": "f434f1e4-c8c4-11ec-8f6b-34f39a8c31a0",
-            "tags": []
+            "tags": [
+                "leech"
+            ]
         },
         {
             "__type__": "Note",
