@@ -1,6 +1,3 @@
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
 ## Anki-Deck der deutschen Bundesländer
 
 ### Inhalt
@@ -9,10 +6,10 @@
 
 ### Installation
 
-:floppy_disk: Um dieses Deck zu installieren, besuche .
+:floppy_disk: Um dieses Deck zu installieren, besuche [Link fehlt noch].
 
 ### Feedback
 
-:thinking: Du hast Fragen? Vielleicht werden sie auf meiner [FAQ Seite](https://github.com/loelschlaeger/ankidecks#faqs) beantwortet.
+:thinking: Du hast Fragen? Vielleicht werden sie bei den [FAQs](https://github.com/loelschlaeger/ankidecks#faqs) beantwortet.
 
-:loudspeaker: Hat der Ministerpräsident eines Landes gewechselt und ich habe noch kein Update vorgenommen? Hast du einen Fehler entdeckt? Hast du eine Erweiterungsidee? Nutze bitte dieses Formular (GitHub Konto erforderlich) oder schicke mir eine E-Mail. 
+:loudspeaker: Hat der Ministerpräsident eines Landes gewechselt und ich habe noch kein Update vorgenommen? Hast du einen Fehler entdeckt? Hast du eine Erweiterungsidee? Nutze bitte [dieses Formular](https://github.com/loelschlaeger/ankidecks/issues/new?assignees=&labels=Deck&template=deck.md) (GitHub Konto erforderlich) oder [maile mir](mailto:oelschlaeger.lennart@gmail.com?subject=Anki%20Decks). 

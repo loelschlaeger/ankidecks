@@ -2,10 +2,8 @@
 
 Dieses Repository beinhaltet eine Sammlung an von mir erstellen Anki Decks. Die Sammlung wächst und wird laufend überarbeitet.
 
-### Liste der Decks
-
 - Vereinigte Staaten von Amerika
-- Deutschen Bundesländer
+- [Deutschen Bundesländer](https://github.com/loelschlaeger/ankidecks/tree/master/Bundesl%C3%A4nder)
 
 ## FAQs
 
