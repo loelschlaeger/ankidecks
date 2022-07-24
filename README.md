@@ -3,7 +3,7 @@
 :package: Dieses Repository beinhaltet eine Sammlung an von mir erstellen Anki Decks. Die Sammlung waechst und wird laufend ueberarbeitet.
 
 - [Deutsche Bundeslaender](https://github.com/loelschlaeger/ankidecks/tree/master/Bundesl%C3%A4nder)
-- Vereinigte Staaten von Amerika
+- [Vereinigte Staaten von Amerika](https://github.com/loelschlaeger/ankidecks/tree/master/Vereinigte%20Staaten)
 
 ## FAQs
 
