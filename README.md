@@ -2,8 +2,9 @@
 
 :package: Dieses Repository beinhaltet eine Sammlung an von mir erstellen Anki Decks.
 
-- [Deutsche Bundeslaender](https://github.com/loelschlaeger/ankidecks/tree/master/Bundesl%C3%A4nder)
-- [Vereinigte Staaten von Amerika](https://github.com/loelschlaeger/ankidecks/tree/master/Vereinigte%20Staaten)
+- [Deutsche Bundeslaender](https://github.com/loelschlaeger/ankidecks/tree/master/Deutsche_Bundeslaender)
+- [Vereinigte Staaten von Amerika](https://github.com/loelschlaeger/ankidecks/tree/master/Vereinigte_Staaten)
+- [Deutsche Fremdwoerter](https://github.com/loelschlaeger/ankidecks/tree/master/Deutsche_Fremdwoerter)
 
 ## FAQs
 

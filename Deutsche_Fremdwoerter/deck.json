@@ -1,0 +1,960 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "08d06ca6-c8cb-11ec-a55c-34f39a8c31a0",
+    "deck_config_uuid": "f434a3f0-c8c4-11ec-8a5c-34f39a8c31a0",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f434a3f0-c8c4-11ec-8a5c-34f39a8c31a0",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 5,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 5
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 50
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "<center> Einige deutsche Fremdwörter, deren Bedeutung und Anwendungsbeispiele. </center>",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "mid": 1644557423436,
+    "name": "Deutsche Fremdwörter",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "css": "hr {\n  margin: 1.5em 0;\n}\n\nimg {\n  height: 300px;\n}\n\n.card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Fremdwort",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Definition",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Beispiel",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Fremdwörter",
+            "req": [
+                [
+                    0,
+                    "none",
+                    []
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"value value--top\">{{Fremdwort}}</div>\n<hr id=answer>\n<div class=\"type\">Definition</div>\n<div class=\"value\">{{Definition}}</div>\n\n{{#Beispiel}}\n\t<br> <div class=\"type\">Beispiel</div>\n    <div style='info'> {{Beispiel}}  </div> \n{{/Beispiel}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Begriff erkennen",
+                    "ord": 0,
+                    "qfmt": "{{#Definition}}\n\t<div class=\"value value--top\">{{Fremdwort}}</div>\n\t<hr>\n\t<div class=\"type\">Definition</div>\n\t<div class=\"value\">?</div>\n{{/Definition}}"
+                },
+                {
+                    "afmt": "<div class=\"value value--top\">{{Definition}}</div>\n<hr>\n<div class=\"type\">Fremdwort</div>\n<div class=\"value\">{{Fremdwort}}</div>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Definition erkennen",
+                    "ord": 1,
+                    "qfmt": "{{#Definition}}\n\t<div class=\"value value--top\">{{Definition}}</div>\n\t<hr>\n\t<div class=\"type\">Fremdwort</div>\n\t<div class=\"value\">?</div>\n{{/Definition}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "bilateral",
+                "zweiseitig",
+                "bilaterale Gespräche"
+            ],
+            "guid": "h<]x)s*@]l",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "adäquat",
+                "angemessen",
+                "adäquater Ausdruck"
+            ],
+            "guid": "o{;<h~z*A1",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ambivalent",
+                "zwiespältig, in sich widersprüchlich",
+                "ambivalente Gefühle"
+            ],
+            "guid": "nFV)C>V54~",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "antizipieren",
+                "vorwegnehmen",
+                "Gedanken antizipieren"
+            ],
+            "guid": "Be/Nu>6`kR",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dekadent",
+                "ausschweifend, verschwenderisch",
+                "dekadente Lebensweise"
+            ],
+            "guid": "O$cq8ap@t4",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "denunzieren",
+                "aus niederen Beweggründen als negativ hinstellen",
+                "jemanden bei der Polizei denunzieren"
+            ],
+            "guid": "t$,n07QTlS",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "diametral",
+                "in genau entgegengesetzter Richtung liegend",
+                "zwei Ansichten sind diametral"
+            ],
+            "guid": "s0~FR,p9ly",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sukzessiv",
+                "allmählich, nur schrittweise",
+                "das Wachstum eines Baumes ist ein sukzessiver Prozess"
+            ],
+            "guid": "J1/.A[u-![",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "impertinent",
+                "in herausfordernder Weise frech",
+                "eine impertinente Person"
+            ],
+            "guid": "i4=Marb}~Y",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "subtil",
+                "fein strukturiert, unterschwellig, präzise",
+                "subtile Restaurantbeleuchtung"
+            ],
+            "guid": "f$N6+H#Nyo",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pragmatisch",
+                "auf praktisches Handeln ausgerichtet, sachbezogen",
+                "eine pragmatische Politikerin"
+            ],
+            "guid": "uDNN8!}~tI",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Status quo",
+                "gegenwärtiger Zustand",
+                "den Status quo zusammenfassen"
+            ],
+            "guid": "cUW^kuPLSL",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "postfaktisch",
+                "gefühlsmäßig, unsachlich",
+                "ein postfaktischer Redestil"
+            ],
+            "guid": "czxni:g+kR",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dito",
+                "ebenfalls, gleichfalls",
+                "„Ich wünsche dir ein schönes Wochenende!“ – „Dito.“"
+            ],
+            "guid": "g@.)%XiloG",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "verifizieren",
+                "die Wahrheit von etwas prüfen und bestätigen",
+                "eine Hypothese verifizieren"
+            ],
+            "guid": "Peu>B*f,[I",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rudimentär",
+                "unzureichend, unvollkommen, nur ansatzweise",
+                "er sprach nur ein rudimentäres Englisch"
+            ],
+            "guid": "yYA.*..FZ(",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "obsolet",
+                "veraltet, nicht mehr gebräuchlich",
+                "ein obsoletes Wort"
+            ],
+            "guid": "ko_FO[0NtP",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "redundant",
+                "mehrfach vorhanden, überzählig",
+                "ein redundantes Merkmal"
+            ],
+            "guid": "plR?C7-vMb",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Misanthrop",
+                "Menschenfeind",
+                "Misanthropie&nbsp;ist die allgemeine Abneigung, das Misstrauen oder die Verachtung gegenüber der&nbsp;Menschheit"
+            ],
+            "guid": "BwV+8_,08^",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hedonismus",
+                "Streben nach Genuss und Sinneslust",
+                "das Verhalten eines Hedonisten ist&nbsp;vorwiegend von der Suche nach Lustgewinn, Sinnengenuss bestimmt"
+            ],
+            "guid": "nfJZ4JVnz<",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "omnidirektional",
+                "in&nbsp;alle&nbsp;Richtungen&nbsp;erfolgend",
+                "omnidirektionale&nbsp;Abstrahlung&nbsp;von&nbsp;Schall"
+            ],
+            "guid": "z2v/hrI,BD",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vasektomie",
+                "Sterilisation des Mannes",
+                ""
+            ],
+            "guid": "}:b]3",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dereliktion",
+                "Besitzaufgabe",
+                ""
+            ],
+            "guid": "]Z@]E",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Adipositas",
+                "Fettleibigkeit",
+                "adipöse Personen haben starkes Übergewicht"
+            ],
+            "guid": "h*o@_cAH5D",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Koloskopie",
+                "Darmspiegelung",
+                ""
+            ],
+            "guid": "PXpK74@_mX",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Epidermis",
+                "Oberhaut, äußere Hautschicht",
+                ""
+            ],
+            "guid": "KH*|#z.KyK",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ambiguität",
+                "Mehrdeutigkeit, Doppeldeutigkeit",
+                "ich traf den Sohn des Nachbarn mit dem Gewehr"
+            ],
+            "guid": "D$L^B^mB3O",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "distinktiv",
+                "unterscheidend",
+                "distinktive&nbsp;Merkmale"
+            ],
+            "guid": "bnNo`+A*nt",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hypochonder",
+                "eine Person, die denkt eine schwerwiegende Krankheit zu haben, obwohl es dafür keinen objektiven Befund gibt",
+                "Hypochondrie ist eine&nbsp;psychische Störung"
+            ],
+            "guid": "irlVODDWAZ",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Abstinenz",
+                "Enthaltsamkeit, Verzicht",
+                "jemanden zur Abstinenz anhalten"
+            ],
+            "guid": "zeJh8D:;+2",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "abstrus",
+                "unklar, verworren",
+                "eine abstruse Idee"
+            ],
+            "guid": "Prawulbr(Z",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "abundant",
+                "häufig vorkommend, reichlich",
+                "das abundante Vorkommen von etwas"
+            ],
+            "guid": "F(1;CVh560",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "affektiert",
+                "geziert, gekünstelt",
+                "ein affektiertes Benehmen"
+            ],
+            "guid": "iaNjva:^bX",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Affinität",
+                "Wesensverwandtschaft, Ähnlichkeit und dadurch bedingte Anziehung",
+                "zu etwas eine Affinität haben"
+            ],
+            "guid": "F&<DDai0On",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Affront",
+                "schwere Beleidigung",
+                "ein gezielter Affront gegenüber seiner Person"
+            ],
+            "guid": "I5Dx%)iJK;",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aggregieren",
+                "anhäufen",
+                "Regen entsteht, wenn kleine Tröpfchen in einer Gewitterwolke zu grösseren&nbsp;aggregieren"
+            ],
+            "guid": "e`4B(ljxm6",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agitation",
+                "(politische) Beeinflussung anderer",
+                "In den 1920er Jahren schaffte es Hitler, dank seines Agitationstalents die Deutsche Arbeiterpartei zu instrumentalisieren."
+            ],
+            "guid": "Fb6|`|3M=n",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Akinese",
+                "hochgradige Bewegungsarmut, Bewegungslosigkeit",
+                "Bei manchen Tieren kann die&nbsp;Akinese&nbsp;die Stimulierung des Tötungsreflexes ihrer Fressfeinde verhindern."
+            ],
+            "guid": "G-p8jW6@nc",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "akkreditieren",
+                "jemanden beglaubigen, bevollmächtigen",
+                "einem akkreditierten&nbsp;Journalisten wird Zutritt zu der Veranstaltung gewährt"
+            ],
+            "guid": "AndP6a)(cP",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Akkumulation",
+                "Anhäufung, Ansammlung",
+                "die Akkumulation von Kapital"
+            ],
+            "guid": "MY6fiJ-<wQ",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Akquise",
+                "Maßnahmen zur Gewinnung von Kunden oder Arbeitshelfern",
+                "Kundenakquise"
+            ],
+            "guid": "DM;WG{26!X",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Allegorie",
+                "bildliche Darstellung eines abstrakten Begriffs",
+                "Der Sensenmann ist eine Allegorie für den Tod."
+            ],
+            "guid": "x,|50AvhP%",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "altruistisch",
+                "selbstlos, uneigennützig, aufopfernd",
+                "Ein Beispiel für eine altruistisch ausgerichtete Organisation sind die&nbsp;Ärzte ohne Grenzen."
+            ],
+            "guid": "t$C!xGlrXl",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ambidextrie",
+                "<div><div><div><div><div><div><div>Beidhändigkeit, gleich ausgebildete Geschicklichkeit beider Hände</div></div></div></div></div></div></div>",
+                "sie verfügt&nbsp;über eine bemerkenswerte, selbst angeeignete&nbsp;Ambidextrie"
+            ],
+            "guid": "INLj*Qh@Y}",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Anagramm",
+                "durch Umstellung von Buchstaben oder Silben innerhalb eines Wortes entstandenes neues sinnvolles Wort",
+                "\"Tom Vorlost Riddle\" ist ein Anagramm zu \"Lord Voldemort\"."
+            ],
+            "guid": "q8oLm#8G2:",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Analogie",
+                "das Sichentsprechen, Sich-ähnlich-, Sich-gleich-Sein",
+                "Das&nbsp;Sprichwort&nbsp;„Viele Köche verderben den Brei“ wird gebraucht, um durch Analogie gegen demokratische Entscheidungsstrukturen zu argumentieren."
+            ],
+            "guid": "vAyFxf/C,(",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Androgyny",
+                "Vereinigung männlicher und weiblicher Merkmale",
+                "ein&nbsp;androgyner Kleidungsstil"
+            ],
+            "guid": "H/D@iz5|X/",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Annexion",
+                "<div><div><div><div><div><div><div>gewaltsame und widerrechtliche Aneignung fremden Gebiets</div></div></div></div></div></div></div>",
+                "Russland annektierte 2014 die Halbinsel Krim."
+            ],
+            "guid": "qM1aDg`m?a",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Antagonist",
+                "Gegner, Gegenspieler, Widersacher",
+                "Der Trizeps ist der Antagonist des Bizeps."
+            ],
+            "guid": "F@RsmS`9`~",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Antonym",
+                "Gegenwort zu einem Begriff",
+                "das&nbsp;Antonym&nbsp;zu „nass“ ist „trocken“"
+            ],
+            "guid": "yhSZ-r~Zcy",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "apathisch",
+                "teilnahmslos, abgestumpft, gleichgültig",
+                "ein apathischer Mensch"
+            ],
+            "guid": "ht>AUK>/y+",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aplomb",
+                "Nachdruck, Forschheit, Dreistigkeit",
+                "etwas mit Aplomb durchzusetzen versuchen"
+            ],
+            "guid": "b%TIw{U;JD",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "approximativ",
+                "angenähert, ungefähr",
+                "die Kreiszahl Pi beträgt approximativ 3,14"
+            ],
+            "guid": "J6?.gOD{/@",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Arachnophobie",
+                "die Angst vor Spinnen",
+                "Eine der weltweit verbreitetsten Tierphobien ist die&nbsp;Arachnophobie&nbsp;- die Angst vor Spinnen."
+            ],
+            "guid": "KNLc)HG{^N",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "arbiträr",
+                "nach Ermessen; willkürlich; beliebig",
+                "eine arbiträre Entscheidung"
+            ],
+            "guid": "IWcVa-&@9/",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Askese",
+                "streng enthaltsame und entsagende Lebensweise",
+                "Askese üben"
+            ],
+            "guid": "nf+c_#icU(",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aspirant",
+                "Bewerber",
+                "ein Aspirant für einen Posten"
+            ],
+            "guid": "sjvGKvd}&@",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "assimilieren",
+                "(sich) angleichen, anpassen",
+                "sich leicht anderen Gepflogenheiten, an eine neue Umgebung assimilieren"
+            ],
+            "guid": "FXzwf^3(hW",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "assoziieren",
+                "Vorstellungen mit etwas verknüpfen, in Verbindung bringen",
+                "mit Schnee assoziiere ich Kälte"
+            ],
+            "guid": "rkrvg%.Kw5",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "autark",
+                "sich selbst genügend, auf niemanden angewiesen",
+                "ein autarker Staat"
+            ],
+            "guid": "x=Fu$NoG{{",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Autodidakt",
+                "<div><div><div><div><div><div><div>Person, die sich ihr Wissen ohne Hilfe einer Lehrkraft oder Teilnahme an einem Unterricht selbst aneignet oder angeeignet hat</div></div></div></div></div></div></div>",
+                "autodidaktische Fähigkeiten"
+            ],
+            "guid": "LG!}[SniJt",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aversion",
+                "Abneigung",
+                "gegen etwas eine Aversion haben"
+            ],
+            "guid": "fPHT%x?Rnq",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "äquivalent",
+                "gleichwertig",
+                "zwei äquivalente Ausdrücke"
+            ],
+            "guid": "F}O-QRRSZ3",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bagatelle",
+                "unbedeutende, geringfügige Angelegenheit; Kleinigkeit",
+                "etwas als Bagatelle betrachten"
+            ],
+            "guid": "c=OFA8.Khs",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "banal",
+                "keine Besonderheit, nichts Auffälliges aufweisend; alltäglich, gewöhnlich",
+                "eine banale Geschichte"
+            ],
+            "guid": "za!UO<]pG-",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Blasphemie",
+                "<div><div><div><div><div><div><div>verletzende, höhnende o. ä. Äußerung über etwas Heiliges, Göttliches</div></div></div></div></div></div></div>",
+                ""
+            ],
+            "guid": "fl:hZem=Vp",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "borniert",
+                "engstirnig, auf seinen Vorstellungen beharrend und zugleich in ärgerlicher Weise eingebildet",
+                "bornierte Leute"
+            ],
+            "guid": "v*)N3@YpB",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bredouille",
+                "Verlegenheit, Bedrängnis",
+                "in der Bredouille sein"
+            ],
+            "guid": "F/f]%c.v=u",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "brüskieren",
+                "in unhöflicher, verletzender Weise schroff behandeln, vor den Kopf stoßen",
+                "jemanden mit einer Frage, durch ein Verhalten brüskieren"
+            ],
+            "guid": "Nt,jh3<ofo",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Charisma",
+                "besondere Ausstrahlungskraft eines Menschen",
+                "Charisma besitzen"
+            ],
+            "guid": "th7q.Sb3;<",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Chauvinismus",
+                "extrem&nbsp;sexistische&nbsp;Einstellung einer Person",
+                "seine Bemerkung war ein unverzeihlicher Chauvinismus"
+            ],
+            "guid": "eZ|kU^C<g0",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Contenance",
+                "Fassung, Haltung (in einer schwierigen Lage)",
+                "die Contenance wahren"
+            ],
+            "guid": "D|jG#Bj*;c",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Defätismus",
+                "durch die Überzeugung, keine Aussicht auf Sieg, auf Erfolg zu haben, und durch eine daraus resultierende starke Neigung zum Aufgeben gekennzeichnete Haltung",
+                "unter den Soldaten breitete sich Defätismus aus"
+            ],
+            "guid": "s;_z&sHpb]",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Xenophobie",
+                "Fremdenfeindlichkeit",
+                "<div><div><div><div><div><div><div>xenophobe Haltung</div></div></div></div></div></div></div>"
+            ],
+            "guid": "y;5VQ)u|N.",
+            "note_model_uuid": "08d094b3-c8cb-11ec-ada8-34f39a8c31a0",
+            "tags": []
+        }
+    ]
+}
