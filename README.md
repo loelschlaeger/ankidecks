@@ -1,17 +1,16 @@
-## Lennart's Anki Decks
+## Lennarts Anki Decks
 
-:gb: This repository contains a collection of Anki decks that I have created. The collection is growing and is constantly being revised.
+Dieses Repository beinhaltet eine Sammlung an von mir erstellen Anki Decks. Die Sammlung wächst und wird laufend überarbeitet.
 
-:de: *Dieses Repository beinhaltet eine Sammlung an von mir erstellen Anki Decks. Die Sammlung wächst und wird laufend überarbeitet.*
+### Liste der Decks
 
-### English Decks
-
-- The United States of America
-
-### Deutsche Decks
-
-- Die deutschen Bundesländer
+- Vereinigte Staaten von Amerika
+- Deutschen Bundesländer
 
 ## FAQs
 
-### What is Anki? / *Was ist Anki?*
+### Was ist Anki?
+
+### Wie installiere ich ein Deck?
+
+### Wie kann ich Verbesserungsvorschläge einreichen?

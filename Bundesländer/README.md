@@ -14,4 +14,4 @@
 
 :loudspeaker: Hat der Ministerpräsident eines Landes gewechselt und ich habe noch kein Update vorgenommen? Hast du einen Fehler entdeckt? Hast du eine Erweiterungsidee? Nutze bitte dieses Formular (GitHub Konto erforderlich) oder schicke mir eine E-Mail. 
 
-Du findest dieses Deck hilfreich? Dann like bitte das Deck und gib diesem Repo einen Stern. :blush:
+:+1: Du findest dieses Deck hilfreich? Dann like bitte das Deck und gib diesem Repo einen Stern.
