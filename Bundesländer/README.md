@@ -1,3 +1,6 @@
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 ## Anki-Deck der deutschen Bundesländer
 
 ### Inhalt
@@ -10,8 +13,6 @@
 
 ### Feedback
 
-:thinking: Du hast Fragen? Vielleicht werden sie auf meiner FAQ Seite beantwortet.
+:thinking: Du hast Fragen? Vielleicht werden sie auf meiner [FAQ Seite](https://github.com/loelschlaeger/ankidecks#faqs) beantwortet.
 
 :loudspeaker: Hat der Ministerpräsident eines Landes gewechselt und ich habe noch kein Update vorgenommen? Hast du einen Fehler entdeckt? Hast du eine Erweiterungsidee? Nutze bitte dieses Formular (GitHub Konto erforderlich) oder schicke mir eine E-Mail. 
-
-:+1: Du findest dieses Deck hilfreich? Dann like bitte das Deck und gib diesem Repo einen Stern.
