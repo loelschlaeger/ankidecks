@@ -6,7 +6,7 @@
 
 ### Installation
 
-:floppy_disk: Um dieses Deck zu installieren, besuche [TBA].
+:floppy_disk: Um dieses Deck zu installieren, besuche [Anki Web](https://ankiweb.net/shared/info/2029843469).
 
 ### Feedback
 

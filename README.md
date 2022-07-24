@@ -15,6 +15,10 @@
 
 [TBA]
 
+### Wie lerne ich am besten mit Anki?
+
+[TBA]
+
 ### Weitere Fragen?
 
 Nutze bitte [dieses Formular](https://github.com/loelschlaeger/ankidecks/issues/new?assignees=&labels=Frage&template=question.md) (GitHub Konto erforderlich) oder [maile mir](mailto:oelschlaeger.lennart@gmail.com?subject=Anki%20Decks). 
