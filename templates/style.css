@@ -1,0 +1,62 @@
+hr {
+  margin: 1.5em 0;
+}
+
+img {
+  height: 300px;
+  object-fit: scale-down;
+}
+
+.card {
+	padding: 0 20%;
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+	.card {
+    padding: 0 0;
+	}
+}
+
+.type {
+  margin-bottom: 0.25em;
+  font-size: 70%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info {
+  max-width: 30em;
+  margin: 0.75em auto;
+  color: #333;
+  font-size: 90%;
+  font-style: italic;
+}
+
+.value {
+  font-size: 150%;
+}
+
+.value.add {
+  font.size: 100%;
+}
+
+.value--top {
+  margin-top: 1em;
+}
+
+.value--image {
+  margin-top: 0.75em;
+}
+
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
