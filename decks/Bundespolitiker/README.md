@@ -1,1 +1,0 @@
-## Anki-Deck der Bundespolitiker
