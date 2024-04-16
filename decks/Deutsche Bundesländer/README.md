@@ -1,6 +1,6 @@
 ## Anki-Deck der deutschen Bundesländer
 
-:page_with_curl: Dieses Anki-Deck beinhaltet insgesamt 141 Karten zu Lage, Hauptstadt, Flagge, Wappen und Ministerpräsident der 16 deutschen Bundesländer.
+:page_with_curl: Dieses Anki-Deck beinhaltet insgesamt 141 Karten zu Lage, Hauptstadt, Fluss, Flagge, Wappen und Ministerpräsident der 16 deutschen Bundesländer.
 
 :floppy_disk: Um dieses Deck zu installieren, besuche [Anki Web](https://ankiweb.net/shared/info/1443035635).
 
