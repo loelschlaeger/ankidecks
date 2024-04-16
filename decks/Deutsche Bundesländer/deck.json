@@ -138,7 +138,7 @@
         "Thüringen_Ramelow.png",
         "Thüringen_Wappen.png"
     ],
-    "name": "Bundesländer",
+    "name": "Deutsche Bundesländer",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -262,7 +262,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Bundesländer",
+            "name": "Deutsche Bundesländer",
             "req": [
                 [
                     0,
